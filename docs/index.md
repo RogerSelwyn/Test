@@ -20,3 +20,6 @@ This integration enables:
 1. Setting Auto Reply/Out of Office response
 
 This project would not be possible without the wonderful [python-o365 project](https://github.com/O365/python-o365).
+
+
+{% remote_include https://github.com/RogerSelwyn/MS365-Calendar/blob/main/README.md %}
