@@ -5,8 +5,8 @@ on:
         branches: [ "main" ]
 
 jobs:
-  release_zip_file:
-    name: Prepare release asset
+  pages_build:
+    name: Build Pages
     runs-on: "ubuntu-latest"
     steps:
       - name: "Checkout the repository"
