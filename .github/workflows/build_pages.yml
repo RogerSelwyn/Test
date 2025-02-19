@@ -23,4 +23,22 @@ jobs:
         
       - name: "Build pages"
         run: sphinx-build -b html -c ./docs/source/ ./docs/source/ ./docs/latest/ 
-        
+
+      - name: "Check for changes"
+        shell: bash
+        run: git status
+
+      - name: "Stage changed files"
+        shell: bash
+        run: git add ./docs/latest
+
+      - name: "Commit changed files"
+        shell: bash
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m "Update the docs" || true
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
