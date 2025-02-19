@@ -1,6 +1,6 @@
 Account
 =======
-Account class represents a specific account you would like to connect
+Account class represents a specific account you would like to connect to
 
 Setting your Account Instance
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
