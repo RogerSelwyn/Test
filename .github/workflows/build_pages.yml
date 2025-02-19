@@ -19,7 +19,7 @@ jobs:
           cache: "pip"
 
       - name: "Install requirements"
-        run: python3 -m pip install -r requirements_pages.txt
+        run: python3 -m pip install -r requirements-pages.txt
         
       - name: "Build pages"
         run: sphinx-build -b html -c ./docs/source/ ./docs/source/ ./docs/latest/ 
