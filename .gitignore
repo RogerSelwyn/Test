@@ -1,1 +1,82 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+doctrees/
+
+# PyBuilder
+target/
+
+# Passwords and other things I care to publish
+*.pw
+*bookings.json
+*/pid
+
+.idea/
+
+trail.py
+sample_run.py
+
+# Dev tooling
+.python-version
+Pipfile
+Pipfile.lock
+.vscode/*
+
+# config.py file that contains secrets
+config.py
+
+# virtualenvironments
+venv/
+
+# O365 specific
+o365_token\.txt
+local_tests/
 .DS_Store
